@@ -12,7 +12,7 @@ data:
 
   # Whether or not to masquerade traffic to destinations not within
   # the pod network.
-  masquerade: "true"
+  masquerade: "false"
 
   # The CNI network configuration to install on each node.
   cni_network_config: |-
